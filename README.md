@@ -6,7 +6,7 @@ This starter example shows how to use [Next.js](https://nextjs.org/), the [Verce
 
 1. Install [Ollama](https://ollama.ai/) on your machine.
 1. Pull the model: `ollama pull llama3` ([reference](https://ollama.ai/library/llama3))
-1. Clone the repository: `git clone https://github.com/lgrammel/ollama-nextjs-starter.git`
+1. Clone the repository: `git clone https://github.com/lgrammel/ollama-nextjs-chatbot.git`
 1. Install dependencies: `npm install`
 1. Start the development server: `npm run dev`
 1. Go to http://localhost:3000/
