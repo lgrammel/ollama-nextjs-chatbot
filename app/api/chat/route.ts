@@ -10,14 +10,13 @@ export async function POST(req: Request) {
   const result = await streamText({
     model: ollama("llama3"),
     system: "You are an AI chat bot. Follow the user's instructions carefully.",
-    messages: messages.map((message) => {
-      switch (message.role) {
+    messages: messages.map(({ role, content }) => {
+      switch (role) {
         case "user":
-          return { role: "user", content: message.content };
         case "assistant":
-          return { role: "assistant", content: message.content };
+          return { role, content };
         default:
-          throw new Error(`Unsupported role: ${message.role}`);
+          throw new Error(`Unsupported role: ${role}`);
       }
     }),
   });
