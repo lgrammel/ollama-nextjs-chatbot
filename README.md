@@ -1,4 +1,4 @@
-# Next.js, Vercel AI SDK & Ollama starter
+# Next.js, Vercel AI SDK & Ollama chatbot
 
 This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and the [Ollama AI Provider](https://github.com/sgomez/ollama-ai-provider) to create a ChatGPT-like AI-powered streaming chat bot.
 
